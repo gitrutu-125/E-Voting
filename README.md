@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Blockchain-Based E-Voting System
 
 A decentralized voting application where voters connect a MetaMask wallet, cast one vote through a Solidity smart contract on the Ethereum Sepolia testnet, and view the results read directly from the blockchain.
@@ -61,3 +62,7 @@ Add your screenshots to a `screenshots/` folder and link them here:
 
 ## License
 MIT
+=======
+# E-Voting
+Decentralized e-voting DApp built with Solidity, Ethereum (Sepolia testnet), MetaMask and ethers.js. Voters connect a wallet, cast one vote per address through a smart contract, and view transparent on-chain results. Includes a HTML/CSS/JS frontend. Educational prototype, not for real elections.
+>>>>>>> 0a7c55285160d00f323aa98e8f25cf0d4a62c49e
