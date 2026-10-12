@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blockchain E-Voting System</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/ethers@6/dist/ethers.umd.min.js"></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Blockchain-Based E-Voting System</h1>
+    <p>Transparent voting powered by blockchain</p>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>Voter Wallet</h2>
+      <button id="connectButton">Connect MetaMask</button>
+      <p id="walletStatus">Wallet not connected</p>
+    </section>
+
+    <section class="panel">
+      <h2>Available Candidates</h2>
+      <div id="candidates">Connect your wallet to continue.</div>
+    </section>
+
+    <section class="panel">
+      <h2>Election Results</h2>
+      <button id="refreshButton">Refresh Results</button>
+      <div id="results"></div>
+    </section>
+
+    <p id="status" role="status"></p>
+  </main>
+</body>
+</html>
